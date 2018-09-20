@@ -68,6 +68,7 @@ namespace Sermo.UI.Controllers
             return View(messageListViewModel);
         }
 
+        /// Sprint 1 -- “I want to send plain text messages to other room members.” -- Greta J
         [HttpPost]
         public ActionResult AddMessage(MessageViewModel messageViewModel)
         {
