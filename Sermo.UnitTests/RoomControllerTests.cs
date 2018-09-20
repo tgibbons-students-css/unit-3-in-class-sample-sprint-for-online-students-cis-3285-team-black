@@ -19,6 +19,7 @@ namespace Sermo.UnitTests
     [TestFixture]
     public class RoomControllerTests
     {
+        //Owen changed this to test properly
         [Test]
         public void ConstructingWithoutReaderThrowsArgumentNullException()
         {
@@ -37,6 +38,7 @@ namespace Sermo.UnitTests
             Assert.DoesNotThrow(() => CreateController());
         }
 
+        //Owen changed this to test properly
         [Test]
         public void GetCreateRendersView()
         {
@@ -57,6 +59,7 @@ namespace Sermo.UnitTests
             Assert.That(viewResult.Model, Is.InstanceOf<RoomViewModel>());
         }
 
+        //Owen changed this to test properly
         [Test]
         [TestCase(null)]
         [TestCase("")]

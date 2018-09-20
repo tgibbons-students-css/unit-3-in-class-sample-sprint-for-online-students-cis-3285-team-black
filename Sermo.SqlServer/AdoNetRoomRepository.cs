@@ -22,6 +22,7 @@ namespace Sermo.Data.AdoNet
             this.databaseFactory = databaseFactory; 
         }
 
+        //Owen changed this to work properly
         public void CreateRoom(string name)
         {
             using(var connection = databaseFactory.CreateConnection())
@@ -46,6 +47,7 @@ namespace Sermo.Data.AdoNet
             }
         }
 
+        //Owen changed this to work properly
         public IEnumerable<RoomRecord> GetAllRooms()
         {
             var allRooms = new List<RoomRecord>();
