@@ -55,6 +55,8 @@ namespace Sermo.UI.Controllers
             }
 
             return result;
+            // Changes Sprint 1 -- I want to view a list of all rooms that represent conversations -- Nathan Ehrenberg
+            
         }
 
         [HttpGet]
