@@ -36,6 +36,7 @@ namespace Sermo.UI.Controllers
             // Changes Sprint 1 -- I want to view a list of rooms that represent conversations -- Nathan Ehrenberg
         }
 
+        /// Changes for Sprint 1 -- “I want to view the messages that have been sent to a room.” -- Greta J
         public IEnumerable<MessageViewModel> GetRoomMessages(int roomID)
         {
             var roomMessages = new List<MessageViewModel>();
