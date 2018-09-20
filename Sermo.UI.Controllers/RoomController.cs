@@ -30,6 +30,7 @@ namespace Sermo.UI.Controllers
             return View(roomListViewModel);
         }
 
+        //Sprint 1 - “I want to create rooms for categorizing conversations.”
         [HttpGet]
         public ActionResult Create()
         {
