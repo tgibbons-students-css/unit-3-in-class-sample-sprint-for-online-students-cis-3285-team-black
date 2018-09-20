@@ -36,6 +36,7 @@ namespace Sermo.UnitTests
             Assert.That(actualMessage.Text, Is.EqualTo(expectedText));
         }
 
+        //Owen : Sprint 2 - “I want to send markdown that will be correctly formatted.”
         [SetUp]
         public void SetUp()
         {
